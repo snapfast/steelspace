@@ -220,23 +220,23 @@ export default function GalaxyBackground() {
         }}
       />
 
-      {/* Sparkle effects */}
+      {/* Sparkle effects - using predefined positions for SSR compatibility */}
       {Array.from({ length: 15 }).map((_, i) => (
         <motion.div
           key={`sparkle-${i}`}
           className="absolute w-1 h-1 bg-white rounded-full"
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
+            left: `${(i * 7 + 13) % 100}%`,
+            top: `${(i * 11 + 19) % 100}%`,
           }}
           animate={{
             opacity: [0, 1, 0],
             scale: [0, 1.5, 0],
           }}
           transition={{
-            duration: Math.random() * 3 + 2,
+            duration: (i % 3) + 2,
             repeat: Infinity,
-            delay: Math.random() * 5,
+            delay: i * 0.3,
             ease: "easeInOut"
           }}
         />

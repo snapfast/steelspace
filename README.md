@@ -5,12 +5,8 @@ A modern, space-themed web application built with Next.js that helps users maxim
 ## Screenshots
 
 ### Homepage
-![SteelSpace Homepage](./screenshots/homepage.png)
+![SteelSpace Homepage](./screenshots/Screenshot.png)
 *Clean, modern design with animated galaxy background and call-to-action buttons*
-
-### Interactive Elements
-![Interactive Features](./screenshots/interactive.png)
-*Smooth animations and hover effects powered by Framer Motion*
 
 ## Features
 
