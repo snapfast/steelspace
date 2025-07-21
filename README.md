@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SteelSpace
+
+A modern, space-themed web application built with Next.js that helps users maximize their space's potential with secure and reliable returns through integrated high-yield capabilities.
+
+## Screenshots
+
+### Homepage
+![SteelSpace Homepage](./screenshots/homepage.png)
+*Clean, modern design with animated galaxy background and call-to-action buttons*
+
+### Interactive Elements
+![Interactive Features](./screenshots/interactive.png)
+*Smooth animations and hover effects powered by Framer Motion*
+
+## Features
+
+- **Modern UI/UX**: Clean, space-themed design with elegant typography
+- **Animated Background**: Interactive galaxy background with moving stars and particles
+- **3D Elements**: Three.js integration for immersive visual experiences
+- **Responsive Design**: Fully responsive layout that works across all devices
+- **Performance Optimized**: Built with Next.js 15.4.2 and Turbopack for fast development
+- **Smooth Animations**: Framer Motion animations for engaging user interactions
+- **TypeScript**: Full TypeScript support for type-safe development
+
+## Tech Stack
+
+- **Framework**: Next.js 15.4.2
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4.0
+- **Animations**: Framer Motion
+- **3D Graphics**: Three.js with React Three Fiber
+- **Development**: Turbopack for fast hot reloading
+
+## Components
+
+- `GalaxyBackground`: Animated space background with particles
+- `CleanNavbar`: Modern navigation component
+- `CleanHero`: Main hero section with call-to-action
+- `AnimatedBackground`: Additional background animations
+- `StarField`: Starry background effects
 
 ## Getting Started
 
@@ -16,18 +55,42 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The page features a beautiful galaxy background with animated elements and a clean, professional interface promoting space optimization solutions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development
 
-## Learn More
+- **Hot Reload**: Enabled with Turbopack for instant updates
+- **TypeScript**: Full type checking and IntelliSense support
+- **ESLint**: Code quality and consistency enforcement
+- **Responsive**: Mobile-first design approach
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/
+│   ├── page.tsx        # Main homepage
+│   ├── layout.tsx      # Root layout
+│   └── globals.css     # Global styles
+└── components/
+    ├── GalaxyBackground.tsx
+    ├── CleanNavbar.tsx
+    ├── CleanHero.tsx
+    └── ...
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Build and Deploy
+
+```bash
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Run linter
+npm run lint
+```
 
 ## Deploy on Vercel
 

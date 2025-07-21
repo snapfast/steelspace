@@ -1,0 +1,14 @@
+
+> steelspace@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.4.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.11:3000
+
+ ✓ Starting...
+ ✓ Ready in 1011ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1781ms
+ HEAD / 200 in 2003ms
+[?25h
